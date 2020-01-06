@@ -1,3 +1,8 @@
+/*
+ * This script was written to work with 'ebrisoft/Backend' on branch
+ * 'feature/UsabilityTesting'. It may not work as expected when used 
+ * with other branches.
+ */
 const https = require("https")
 const axios = require("axios")
 axios.defaults.withCredentials = true;
