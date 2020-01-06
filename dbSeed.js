@@ -65,7 +65,7 @@ const STEPS = [
 		action: "setpinboard",
 		payload: {
 			"HouseId": 1,
-			"Text": "Bin Days - Alternating Thursdays (Recycle / General)\n\nWiFi Password: Jk93lPP200i"
+			"Text": "WiFi: VI9273661\nPassword: A3hi09091\n\nBins:\nStarting Thurs 02 Jan 2020, alternating general and recycling.\n\nFire Extinguishers & Alarms:\nNext inspection is 4th May 2020\n\nDamp:\nPrevious tenants have said that some places in the house can get damp; there is a pamphlet in the kitchen on preventing this."
 		}
 	},
 	{
@@ -73,7 +73,7 @@ const STEPS = [
 		action: "setpinboard",
 		payload: {
 			"HouseId": 2,
-			"Text": "Bin Days - Alternating Wednesdays (Recycle / General)\n\nWiFi Password: 76TTjhQpo0!"
+			"Text": "WiFi: VI9273661\nPassword: A3hi09091\n\nBins:\nStarting Thurs 02 Jan 2020, alternating general and recycling.\n\nFire Extinguishers & Alarms:\nNext inspection is 4th May 2020\n\nDamp:\nPrevious tenants have said that some places in the house can get damp; there is a pamphlet in the kitchen on preventing this."
 		}
 	},
 	{
