@@ -302,7 +302,7 @@ async function makeRequest(step) {
 		console.log(response.status)
 		console.log(response.data)
 	} catch (e) {
-		console.log("MINOR FUCKUP")
+		console.log("Task failure: ")
 		console.log(e.response.status)
 		console.log(e.response.data)
 	}
@@ -320,7 +320,7 @@ async function main() {
 	try {
 		await main();
 	} catch (e) {
-		console.log("MAJOR FUCKUP")
+		console.log("Program failure: ")
 		console.log(e)
 	}
 })();
