@@ -1,6 +1,6 @@
 /*
  * This script was written to work with 'ebrisoft/Backend' on branch
- * 'feature/UsabilityTesting'. It may not work as expected when used 
+ * 'feature/UsabilityTesting'. It may not work as expected when used
  * with other branches.
  */
 const https = require("https")
@@ -46,14 +46,14 @@ const STEPS = [
 			"Password": "aaaAAA123;"
 		}
 	},
-	{
+	{ // ID 1
 		domain: "landlord",
 		action: "createhouse",
 		payload: {
 			"Name": "26 Ebrington Street"
 		}
 	},
-	{
+	{ // ID 2
 		domain: "landlord",
 		action: "createhouse",
 		payload: {
@@ -76,7 +76,7 @@ const STEPS = [
 			"Text": "WiFi: VI9273661\nPassword: A3hi09091\n\nBins:\nStarting Thurs 02 Jan 2020, alternating general and recycling.\n\nFire Extinguishers & Alarms:\nNext inspection is 4th May 2020\n\nDamp:\nPrevious tenants have said that some places in the house can get damp; there is a pamphlet in the kitchen on preventing this."
 		}
 	},
-	{
+	{ // ID 1
 		domain: "landlord",
 		action: "createcontact",
 		payload: {
@@ -85,7 +85,7 @@ const STEPS = [
 			"PhoneNumber": "07111111111"
 		}
 	},
-	{
+	{ // ID 2
 		domain: "landlord",
 		action: "createcontact",
 		payload: {
@@ -95,7 +95,7 @@ const STEPS = [
 			"PhoneNumber": "07222222222"
 		}
 	},
-	{
+	{ // ID 3
 		domain: "landlord",
 		action: "createcontact",
 		payload: {
@@ -104,7 +104,7 @@ const STEPS = [
 			"Email": "sww@notgmail.com"
 		}
 	},
-	{
+	{ // ID 4
 		domain: "landlord",
 		action: "createcontact",
 		payload: {
@@ -197,7 +197,7 @@ const STEPS = [
 			"TenantUsername": "alice.marshal@notgmail.com"
 		}
 	},
-	{
+	{ // ID 3
 		domain: "landlord",
 		action: "createissue",
 		payload: {
@@ -207,7 +207,7 @@ const STEPS = [
 			"Priority": 0
 		}
 	},
-	{
+	{ // ID 4
 		domain: "landlord",
 		action: "createissue",
 		payload: {
@@ -221,7 +221,7 @@ const STEPS = [
 		domain: "landlord",
 		action: "archive",
 		payload: {
-			"Id": 2
+			"Id": 4
 		}
 	},
 	{
@@ -232,7 +232,7 @@ const STEPS = [
 			"Password": "aaaAAA123;"
 		}
 	},
-	{
+	{ // ID 5
 		domain: "tenant",
 		action: "createissue",
 		payload: {
@@ -248,7 +248,7 @@ const STEPS = [
 			"Password": "aaaAAA123;"
 		}
 	},
-	{
+	{ // ID 6
 		domain: "tenant",
 		action: "createissue",
 		payload: {
@@ -264,7 +264,7 @@ const STEPS = [
 			"Password": "aaaAAA123;"
 		}
 	},
-	{
+	{ // ID 7
 		domain: "tenant",
 		action: "createissue",
 		payload: {
@@ -272,7 +272,7 @@ const STEPS = [
 			"Content": "Freezer draw has cracked and cant really be used any more - items continually fall out... any chance it can be replaced please?",
 		}
 	},
-	{
+	{ // 8
 		domain: "tenant",
 		action: "createissue",
 		payload: {
@@ -284,7 +284,7 @@ const STEPS = [
 		domain: "tenant",
 		action: "archive",
 		payload: {
-			"Id": 6,
+			"Id": 8,
 		}
 	}
 ]
